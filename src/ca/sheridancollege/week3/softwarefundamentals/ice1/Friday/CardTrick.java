@@ -26,42 +26,6 @@ public class CardTrick {
            magicHand[i] = c; // set ith card of magicHand to c
        }
       
-       /*
-       // create a default user card
-       Card userCard = new Card();
-      
-       int value;
-       String suit;
-       boolean found = false;
-      
-       Scanner scan = new Scanner(System.in);
-       // input the value and suit for the card
-       System.out.print("Enter the value of the card(1-13): ");
-       value = scan.nextInt();
-       System.out.print("Enter the suit of the card"+Arrays.toString(Card.SUITS)+": ");
-       suit = scan.next();
-      
-       // set the value and suit for the user card
-       userCard.setValue(value);
-       userCard.setSuit(suit);
-      
-       // loop to determine if userCard is present in magicHand
-       for(int i=0;i<magicHand.length;i++)
-       {
-           if(magicHand[i].getValue() == userCard.getValue() && magicHand[i].getSuit().equalsIgnoreCase(userCard.getSuit()))
-           {
-               found = true;
-               break;
-           }
-       }
-      
-       // display the result based on the search
-       if(found)
-           System.out.println("User card found in magicHand");
-       else
-           System.out.println("User card not found in magicHand");
-       */
-      
        boolean found = false;
        // create a luckyCard
        Card luckyCard = new Card();
